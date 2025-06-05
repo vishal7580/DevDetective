@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Detective</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" media="(min-width: 0px) and (max-width: 750px)" href="smallscreen.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- Title Container -->
+        <div class="title-container">
+          <p class="title">DevDetective</p>
+          <div class="btn-mode dark">
+            <p class="mode-txt">Dark</p>
+            <img src="assets/images/moon-icon.svg" alt="" />
+          </div>
+          <div class="btn-mode light">
+            <p class="mode-txt">Light</p>
+            <img src="assets/images/sun-icon.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- input Container -->
+        <div class="input-container">
+          <div class="search-container">
+            <input
+              data-searchInput
+              type="text"
+              placeholder="Enter a Github username..."
+            />
+            <p class="error-txt">no result found</p>
+
+            <img class="cross-icon" src="/assets/images/cross-mark-svgrepo-com.svg" >
+
+          </div>
+          
+          
+          <button class="search-btn">Search</button>
+        </div>
+
+        <!-- main Container -->
+        <div class="main-info-wrapper">
+          <img class="profile-photo" src="#" width="100" />
+          <div class="info-container">
+            <div class="profile-container">
+              <h2 class="profile-name"></h2>
+              <p class="join-date"></p>
+            </div>
+            <a href="#" class="profile-link"></a>
+            <p class="bio"></p>
+
+            <!-- Repo details -->
+            <div class="repo-container">
+              <div class="repos">
+                <p>repos</p>
+                <p data-repo></p>
+              </div>
+              <div class="followers">
+                <p>followers</p>
+                <p data-followers></p>
+              </div>
+              <div class="following">
+                <p>following</p>
+                <p data-following></p>
+              </div>
+            </div>
+
+            <div class="footer-parameters">
+              <div class="parameter">
+                <img src="assets/images/location-icon.svg" width="15" alt="" />
+                <p data-location></p>
+              </div>
+              <div class="parameter">
+                <img src="assets/images/website-icon.svg" width="20" alt="" />
+                <a data-portfolio href="#"></a>
+              </div>
+              <div class="parameter">
+                <img src="assets/images/twitter-icon.svg" width="20" alt="" />
+                <a data-twitter href="#"></a>
+              </div>
+              <div class="parameter">
+                <img src="assets/images/company-icon.svg" width="20" alt="" />
+                <p data-company></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

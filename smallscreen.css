@@ -1,0 +1,109 @@
+.container {
+  /* width: 100%; */
+  /* display: bla; */
+}
+
+.wrapper {
+  align-items: baseline;
+  padding: 1rem 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.title-container {
+  padding: 0.45rem 0;
+}
+.title {
+  font-size: 1.3rem;
+}
+.input-container {
+  padding: 0.45rem 0.45rem 0.45rem 0.85rem;
+}
+.container{
+  row-gap: 15px;
+}
+.search-container input {
+  background-size: 15px;
+  width: 100%;
+  font-size: 0.75rem;
+  padding-left: 20px;
+}
+.search-btn {
+  font-size: 0.75rem;
+  padding: 0.7rem 1.3rem;
+}
+.error-txt {
+  font-size: 0.75rem;
+}
+
+.main-info-wrapper {
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  padding: 2rem 2rem 1.25rem;
+}
+.profile-photo {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+.profile-container {
+  flex-direction: column;
+}
+.profile-name {
+  font-size: 1.15rem;
+}
+.join-date {
+  font-size: 0.75rem;
+}
+.profile-link {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.bio {
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.repo-container {
+  padding: 1rem 1.5rem;
+}
+.repos p:first-of-type {
+  font-size: 0.65rem;
+}
+.followers p:first-of-type {
+  font-size: 0.65rem;
+}
+.following p:first-of-type {
+  font-size: 0.65rem;
+}
+
+.repos p:last-of-type {
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+.followers p:last-of-type {
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+.following p:last-of-type {
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+.info-container {
+  width: 100%;
+}
+
+.parameter {
+  padding: 0.5rem;
+  gap: 8px;
+}
+.parameter p {
+  font-size: 12px;
+}
+.parameter a {
+  font-size: 12px;
+}
